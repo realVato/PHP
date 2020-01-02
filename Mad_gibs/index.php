@@ -22,9 +22,9 @@
     </form>
 
     <?php 
-        $color = $_GET['color'];
-        $sekiro = $_GET['sekiro'];
-        $genichiro = $_GET['genichiro'];
+        $color = $_GET['color'] ?? '' ;
+        $sekiro = $_GET['sekiro'] ?? '';
+        $genichiro = $_GET['genichiro'] ?? '';
 
         echo "Roses are $color <br>";
         echo "Sekiro is $sekiro <br>";
