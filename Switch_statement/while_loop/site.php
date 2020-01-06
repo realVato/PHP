@@ -9,11 +9,11 @@
 <body>
 
 <?php 
-    $index = 1;
-    while($index <= 5) {
+    $index = 6;
+    do {
         echo $index;
         $index++;
-    }
+    } while($index <= 5)
 ?>
     
 </body>
