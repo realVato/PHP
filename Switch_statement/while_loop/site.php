@@ -9,11 +9,18 @@
 <body>
 
 <?php 
-    $index = 6;
-    do {
-        echo $index;
-        $index++;
-    } while($index <= 5)
+    // $index = 6;
+    // do {
+    //     echo $index;
+    //     $index++;
+    // } while($index <= 5);
+
+
+    // for loop
+    $numbers = [0, 1, 2, 3, 4, 41, 1232, 32];
+    for ($i = 0; $i <= count($numbers); $i++) {
+        echo "$numbers[$i] <br>";
+    }
 ?>
     
 </body>
