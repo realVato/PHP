@@ -15,7 +15,9 @@
     $name = 'Thousand cuts';
     $wordCount = 1000;
 
-    include "template.php";
+    // include "template.php";
+    include "tools.php";
+    sayHi($author);
 
 
 ?>
