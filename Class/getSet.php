@@ -17,7 +17,7 @@
         function setRating($rating) {
             if($rating == 1 || $rating == 2 || $rating == 3) {
                 $this->rating = $rating;
-            } else {
+            } elseif($rating < 1 || $rating > 3) {
                 $this->rating = "Not rated";
             }
         }
